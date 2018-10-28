@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Tabs, Icon } from 'antd';
+import SettingsGeneralContainer from './SettingsGeneralContainer';
 
 const { TabPane } = Tabs;
 
@@ -22,7 +23,7 @@ class SettingsScreen extends Component {
             }
             key="1"
           >
-            General
+            <SettingsGeneralContainer />
           </TabPane>
           <TabPane
             tab={
