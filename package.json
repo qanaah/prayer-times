@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.10.3",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.0.5",
-    "ant-design": "3.10.3"
+    "react-scripts": "2.0.5"
   },
   "scripts": {
     "start": "nf start -p 3000",
@@ -27,6 +27,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@types/react": "^16.4.18",
     "electron": "3.0.6",
     "foreman": "3.0.1"
   },
